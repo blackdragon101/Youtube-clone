@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube.com clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="text style.css" />
+    <link rel="stylesheet" href="styles/videos.css" />
+    <link rel="stylesheet" href="styles/headers.css" />
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/sidebar.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="left-section">
+        <img
+          class="menu-icon"
+          src="icons/hamburger-menu.svg"
+          alt="Menu image"
+        />
+        <img
+          class="youtube-logo"
+          src="icons/youtube-logo.svg"
+          alt="Youtube logo"
+        />
+      </div>
+      <div class="mid-section">
+        <input class="search-bar" type="text" placeholder="Search" />
+        <button class="search-button">
+          <img
+            class="search-icon"
+            src="icons/search-icon.svg"
+            alt="search button"
+          />
+          <div class="tool-tip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img
+            class="voice-search-icon"
+            src="icons/voice-search-icon.svg"
+            alt=""
+          />
+          <div class="tool-tip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-box">
+          <img
+            class="upload-icon"
+            src="icons/upload icon.svg"
+            alt="Upload icon"
+          />
+          <div class="tool-tip">Create</div>
+        </div>
+        <div class="yt-apps-box">
+          <img
+            class="youtube-apps-icon"
+            src="icons/youtube-apps.svg"
+            alt="icon of youtube youtube-apps"
+          />
+          <div class="tool-tip">Youtube apps</div>
+        </div>
+        <div class="notifications-box">
+          <img
+            class="notifications-icon"
+            src="icons/notifications icon.svg"
+            alt="notifications icon"
+          />
+          <div class="tool-tip">Notifications</div>
+          <p class="notify-num">3</p>
+        </div>
+        <img
+          class="current-user-pic"
+          src="images/user-picture.png"
+          alt="profile-pic"
+        />
+      </div>
+    </div>
+    <div class="sidebar">
+      <button class="home-button">
+        <img class="home-icon" src="icons/home icon.svg" alt="home icon" />
+        <p class="home">Home</p>
+      </button>
+      <button class="explore-button">
+        <img class="explore-icon" src="icons/explore.svg" alt="explore icon" />
+        <p class="explore">Explore</p>
+      </button>
+      <button class="subs-button">
+        <img class="subs-icon" src="icons/subscriptions.svg" alt="subs-icon" />
+        <p class="subs">Subscriptions</p>
+      </button>
+      <button class="originals-button">
+        <img
+          class="originals-icon"
+          src="icons/originals.svg"
+          alt="originals icon"
+        />
+        <p class="ori">Originals</p>
+      </button>
+      <button class="yt-music-button">
+        <img
+          class="yt-music-icon"
+          src="icons/youtube-music.svg"
+          alt="yt-music-icon"
+        />
+        <p class="yt-music">Youtube Music</p>
+      </button>
+      <button class="library-button">
+        <img class="library-icon" src="icons/library.svg" alt="library icon" />
+        <p class="lib">Library</p>
+      </button>
+    </div>
+    <div class="video-grid">
+      <div class="video-preview1">
+        <div class="video-img-box">
+          <a href="https://www.youtube.com/watch?v=Xzo140HtuFo&ab_channel=shin">
+            <img
+              class="video-img"
+              src="images/shin vlog.webp"
+              alt="An image of a vlog"
+            />
+          </a>
+          <div class="video-time">14:36</div>
+        </div>
+        <div class="halfblock-down">
+          <div class="channel-pic-div">
+            <img
+              class="channel-pic"
+              src="images\channels3_profile1.jpg"
+              alt="An image"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">a day in my life 🥟 | summer vlog 🌺</p>
+            <p class="author-name">shin</p>
+            <p class="video-stats">866k views &#8226; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview2">
+        <div class="video-img-box">
+          <a
+            href="https://www.youtube.com/watch?v=xB60P7ybtP8&t=10s&ab_channel=TheLateLateShowwithJamesCorden"
+          >
+            <img
+              class="video-img"
+              src="images/yout friends reunion.webp"
+              alt="An image of a video"
+            />
+          </a>
+          <div class="video-time">11:22</div>
+        </div>
+        <div class="halfblock-down">
+          <div class="channel-pic-div">
+            <img
+              class="channel-pic"
+              src="images\channels2_profile1.jpg"
+              alt="An image"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              James Corden Visits the Cast at the 'Friends' Reunion
+            </p>
+            <p class="author-name">The Late Late Show with James Corden</p>
+            <p class="video-stats">11M views &#8226; 3 years ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview3">
+        <div class="video-img-box">
+          <a
+            href="https://www.youtube.com/watch?v=ydYBRLoBUpY&ab_channel=KevinNaughtonJr."
+          >
+            <img
+              class="video-img"
+              src="images/yout soft eng interview.webp"
+              alt="An image of a video"
+            />
+          </a>
+          <div class="video-time">10:21</div>
+        </div>
+        <div class="halfblock-down">
+          <div class="channel-pic-div">
+            <img
+              class="channel-pic"
+              src="images\channels4_profile2.jpg"
+              alt="An image"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Advice from the Top 1% of Software Engineers
+            </p>
+            <p class="author-name">Kevin Naughton Jr.</p>
+            <p class="video-stats">3.2M views &#8226; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview4">
+        <div class="video-img-box">
+          <a
+            href="https://www.youtube.com/watch?v=fkIvmfqX-t0&ab_channel=WIRED"
+          >
+            <img
+              class="video-img"
+              src="images\algorithm img.webp"
+              alt="An image of a vlog"
+            />
+          </a>
+          <div class="video-time">25:47</div>
+        </div>
+        <div class="halfblock-down">
+          <div class="channel-pic-div">
+            <img
+              class="channel-pic"
+              src="images\algo-chan-profile.jpg"
+              alt="An image"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Harvard Professor Explains Algorithms in 5 Levels of Difficulty |
+              WIRED
+            </p>
+            <p class="author-name">WIRED</p>
+            <p class="video-stats">2.6M views &#8226; 8 months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview5">
+        <div class="video-img-box">
+          <a
+            href="https://www.youtube.com/watch?v=kyU5-ghlVdQ&ab_channel=TinaYong"
+          >
+            <img
+              class="video-img"
+              src="images\korean skincare.webp"
+              alt="An image of a video"
+            />
+          </a>
+          <div class="video-time">9:26</div>
+        </div>
+        <div class="halfblock-down">
+          <div class="channel-pic-div">
+            <img
+              class="channel-pic"
+              src="images\skin-profile.jpg"
+              alt="An image"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              I tried the New Korean "Goddess" Skin Treatment
+            </p>
+            <p class="author-name">Tina Yong</p>
+            <p class="video-stats">851K views &#8226; 7 months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview6">
+        <div class="video-img-box">
+          <a
+            href="https://www.youtube.com/watch?v=lj5GXZaE7qs&ab_channel=KiunB"
+          >
+            <img
+              class="video-img"
+              src="images\a day in life at 71.webp"
+              alt="An image of a video"
+            />
+          </a>
+          <div class="video-time">17:35</div>
+        </div>
+        <div class="halfblock-down">
+          <div class="channel-pic-div">
+            <img
+              class="channel-pic"
+              src="images\cold day profile.jpg"
+              alt="An image"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              One Day in the Coldest Village on Earth &#8722;71°C (&#8722;95°F)
+              | Yakutia, Siberia
+            </p>
+            <p class="author-name">Kiun B</p>
+            <p class="video-stats">47M views &#8226; 2 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview7">
+        <div class="video-img-box">
+          <a
+            href="https://www.youtube.com/watch?v=2o1ImH6R5rM&t=22s&ab_channel=CoffeeRelaxingJazz"
+          >
+            <img
+              class="video-img"
+              src="images\music-video.webp"
+              alt="An image of a vlog"
+            />
+          </a>
+          <div class="video-time">11:54:56</div>
+        </div>
+        <div class="halfblock-down">
+          <div class="channel-pic-div">
+            <img
+              class="channel-pic"
+              src="images\coffee profile.jpg"
+              alt="An image"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Relaxing Jazz Music for Studying, Working, Sleeping☕Soft Jazz...
+            </p>
+            <p class="author-name">Coffee Relaxing Jazz</p>
+            <p class="video-stats">36,418 views &#8226; 22 hours ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview8">
+        <div class="video-img-box">
+          <a
+            href="https://www.youtube.com/watch?v=Wq3x-DZjq5U&t=1s&ab_channel=MrBean"
+          >
+            <img
+              class="video-img"
+              src="images\mr bean video.webp"
+              alt="An image of a video"
+            />
+          </a>
+          <div class="video-time">26:18</div>
+        </div>
+        <div class="halfblock-down">
+          <div class="channel-pic-div">
+            <img
+              class="channel-pic"
+              src="images\bean profile.jpg"
+              alt="An image"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Mr Bean Gets Jealous Of Mrs Wicket! | Mr Bean Animated Season..
+            </p>
+            <p class="author-name">Mr Bean</p>
+            <p class="video-stats">74K views &#8226; 1 day ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview9">
+        <div class="video-img-box">
+          <a
+            href="https://www.youtube.com/watch?v=olZzLFdR8zA&t=37s&ab_channel=StillWatchingNetflix"
+          >
+            <img
+              class="video-img"
+              src="images\blackpink video.webp"
+              alt="An image of a video"
+            />
+          </a>
+          <div class="video-time">6:03</div>
+        </div>
+        <div class="halfblock-down">
+          <div class="channel-pic-div">
+            <img
+              class="channel-pic"
+              src="images\netflix profile.jpg"
+              alt="An image"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              BLACKPINK Light Up the Sky | Exclusive Deleted Scenes | Netflix
+            </p>
+            <p class="author-name">Still Watching Netflix</p>
+            <p class="video-stats">5.9M views &#8226; 3 years ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
