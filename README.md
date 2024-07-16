@@ -1,4 +1,4 @@
-### YouTube Clone ###:
+### YouTube Clone:
 Project Description
 This project is a YouTube clone created using HTML and CSS. It replicates the look and feel of YouTube, focusing on the layout and design aspects. The goal of this project was to practice and demonstrate advanced CSS properties and HTML skills.
 
