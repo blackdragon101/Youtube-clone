@@ -21,7 +21,7 @@ To view this project locally, you need a web browser and a code editor (e.g., VS
 1) Installation
    
 2)Clone the repository:
-git clone https://github.com/your-username/youtube-clone.git
+git clone https://github.com/blackdragon101/Youtube-clone.git
 
 3) Navigate to the project directory:
 cd youtube-clone
