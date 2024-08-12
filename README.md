@@ -1,5 +1,6 @@
 # YouTube Clone:
-Project Description
+
+## Project Description
 This project is a YouTube clone created using HTML and CSS. It replicates the look and feel of YouTube, focusing on the layout and design aspects. The goal of this project was to practice and demonstrate advanced CSS properties and HTML skills.
 
 ## Features:
@@ -18,7 +19,7 @@ To view this project locally, you need a web browser and a code editor (e.g., VS
 
 1) Installation
    
-2)Clone the repository:
+2) Clone the repository:
 git clone https://github.com/blackdragon101/Youtube-clone.git
 
 3) Navigate to the project directory:
