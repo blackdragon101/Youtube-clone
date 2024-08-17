@@ -9,10 +9,13 @@ This project is a YouTube clone created using HTML and CSS. It replicates the lo
 3)Structured HTML: Clean and well-organized HTML code for easy navigation and understanding.
 
 ## Screenshots:
-![Screenshot 2024-07-16 223118](https://github.com/user-attachments/assets/e933fe55-20b9-4ea5-aaae-9fdc3ebfa67a)
+![Youtube-Frontpage1](https://github.com/user-attachments/assets/e933fe55-20b9-4ea5-aaae-9fdc3ebfa67a)
 
 
-![Screenshot 2024-07-16 223316](https://github.com/user-attachments/assets/e706fdd4-adda-4082-a5fe-ac0774668232)
+
+
+
+![Youtube-frontpage2](https://github.com/user-attachments/assets/e706fdd4-adda-4082-a5fe-ac0774668232)
 
 
 
