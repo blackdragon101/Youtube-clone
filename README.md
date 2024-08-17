@@ -12,7 +12,7 @@ This project is a YouTube clone created using HTML and CSS. It replicates the lo
 ![Youtube-Frontpage1](https://github.com/user-attachments/assets/e933fe55-20b9-4ea5-aaae-9fdc3ebfa67a)
 
 
-
+<br>
 
 
 ![Youtube-frontpage2](https://github.com/user-attachments/assets/e706fdd4-adda-4082-a5fe-ac0774668232)
