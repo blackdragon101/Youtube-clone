@@ -4,9 +4,9 @@
 This project is a YouTube clone created using HTML and CSS. It replicates the look and feel of YouTube, focusing on the layout and design aspects. The goal of this project was to practice and demonstrate advanced CSS properties and HTML skills.
 
 ## Features:
-1)Responsive Design: The layout adjusts seamlessly to different screen sizes, providing an optimal viewing experience on desktops, tablets, and mobile devices.
-2)Custom CSS Styling: Utilizes advanced CSS properties for styling elements, including flexbox, grid, transitions, and animations.
-3)Structured HTML: Clean and well-organized HTML code for easy navigation and understanding.
+- Responsive Design: The layout adjusts seamlessly to different screen sizes, providing an optimal viewing experience on desktops, tablets, and mobile devices.
+- Custom CSS Styling: Utilizes advanced CSS properties for styling elements, including flexbox, grid, transitions, and animations.
+- Structured HTML: Clean and well-organized HTML code for easy navigation and understanding.
 
 ## Screenshots:
 ![Youtube-Frontpage1](https://github.com/user-attachments/assets/e933fe55-20b9-4ea5-aaae-9fdc3ebfa67a)
