@@ -1,0 +1,44 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    position: fixed;
+    top: 50px;
+    bottom: 0;
+    left: 0;
+    width: 65px;
+    flex-shrink: 0;
+}
+.home-button,.explore-button,.subs-button,.originals-button,.yt-music-button,.library-button {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    height: 58px;
+}
+.home-icon,.explore-icon,.subs-icon,.originals-icon,.yt-music-icon,.library-icon {
+    height: 22px;
+}
+.home,.explore,.subs,.ori,.yt-music,.lib {
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 8px;
+    font-weight: 300;
+    cursor: pointer;
+}
+.library-button:hover {
+    background-color: rgb(240, 240, 240);
+}
+.home-button:hover {
+    background-color:rgb(240, 240, 240) ;
+}
+.explore-button:hover {
+    background-color: rgb(240, 240, 240);
+}
+.subs-button:hover {
+    background-color: rgb(240, 240, 240);
+}
+.originals-button:hover {
+    background-color: rgb(240, 240, 240);
+}
+.yt-music-button:hover {
+    background-color:rgb(240, 240, 240) ;
+}
